@@ -5,7 +5,8 @@
             [ring.middleware.json :as middleware]
             [compojure.route :as route]
             [clobot.bot :as bot]
-            [clobot.models.migration :as schema]))
+            [clobot.models.migration :as schema])
+  (:gen-class))
 
 (defroutes app-routes
   (GET "/" [] "<h1><a href='https://github.com/opyate/clobot'>Clobot<a/></h1>")

@@ -17,11 +17,13 @@
                          [:id :serial "PRIMARY KEY"]
                          [:token :varchar "NOT NULL"]
                          [:team_id :varchar "NOT NULL"]
-                         [:channel_id :varchar "NOT NULL"]
                          [:channel_name :varchar "NOT NULL"]
+                         [:channel_id :varchar "NOT NULL"]
                          [:timestamp :varchar "NOT NULL"]
                          [:user_id :varchar "NOT NULL"]
                          [:user_name :varchar "NOT NULL"]
                          [:text :text "NOT NULL"]
-                         [:trigger_word :varchar "NOT NULL"]))
+                         [:trigger_word :varchar "NOT NULL"]
+                         [:service_id :varchar "NOT NULL"]
+                         [:team_domain :varchar "NOT NULL"]))
     (.println System/out " done")))
