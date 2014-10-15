@@ -17,5 +17,8 @@ To start a web server for the application, run:
 ## License
 
 Copyright © 2014 FIXME
+
+## Notes
+
 heroku apps:create slackpoll
 heroku addons:add heroku-postgresql:hobby-dev --app slackpoll
